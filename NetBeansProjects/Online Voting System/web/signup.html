@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="signup.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/618f72fac1.js" crossorigin="anonymous"></script>
+        <script src="signup.js"></script>
+    </head>
+
+    <body>
+        <div class='side-bar'>
+            <img id="group8" src="IMAGES/group 8.png" alt="group 8"/>
+            <div id='navigation'>
+                <button onclick="changeTab(event, 'vote')" id="def-tab" class="nav-btns"><i class="fa-solid fa-check-to-slot fa-2x"></i><strong>Vote</strong></button>
+                <button onclick="changeTab(event, 'vote-guideline')" class="nav-btns"><i class="fa-solid fa-inbox fa-2x"></i><strong>Voters Guideline</strong></button>
+            </div>
+
+            <div id='logout'>
+                <a href='logout.html'><button><strong>Logout</strong></button></a>
+            </div>
+        </div>
+        <main>
+            <div class='top-bar'>
+                <div id="search">
+                    <form>
+                        <input type='text' placeholder='Search'/>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                </div>
+                <div id="options">
+                    <i class="fa-sharp fa-solid fa-bell"></i>
+                    <a href="edit-profile.html"><div id='profilename'>
+                            <img src="IMAGES/profile picture.jpg" alt='profile img'>
+                            <p>Darlington Ugo</p>
+                        </div></a>
+                </div>   
+            </div>
+
+            <div id="vote" class="content">
+                <div class='vote'>
+                    <div id='heading1'>
+                        <h1>Welcome, <span>Darlington</span></h1>
+                    </div>
+                    <div id='heading2'>
+                        <h2>Your Vote is Secure, Your Vote Counts</h2>
+                        <p>You can only vote for one candidate per post.</p>
+                    </div>
+                </div>
+
+                <div class='aspirants'>
+                    <div class='candidate-profile'>
+                        <div class='top'>
+                            <img src="IMAGES/divine.jpg" alt='divine'>
+                            <h2>Obi Divine</h2>
+                            <p>President</p>
+                        </div>
+                        <div class='down'>
+                            <a href='view detail.html'><button class='view'><strong>View Details</strong></button></a>
+                            <a href='vote.html'><button type="submit" class='voat'><strong>Vote</strong></button></a>
+                        </div>
+                    </div>
+
+                    <div class='candidate-profile'>
+                        <div class='top'>
+                            <img src="IMAGES/Peter Obi.jpg" alt='peter obi'>
+                            <h2>Peter Obi</h2>
+                            <p>President</p>
+                        </div>
+                        <div class='down'>
+                            <a href='view detail.html'><button class='view'><strong>View Details</strong></button></a>
+                            <a href='vote.html'><button class='voat'><strong>Vote</strong></button></a>
+                        </div>
+                    </div>
+
+                    <div class='candidate-profile'>
+                        <div class='top'>
+                            <img src="IMAGES/dinma.jpg" alt='dinma'>
+                            <h2>Egele Chidinma</h2>
+                            <p>Vice President</p>
+                        </div>
+                        <div class='down'>
+                            <a href='view detail.html'><button class='view'><strong>View Details</strong></button></a>
+                            <a href='vote.html'><button class='voat'><strong>Vote</strong></button></a>
+                        </div>
+                    </div>
+
+                    <div class='candidate-profile'>
+                        <div class='top'>
+                            <img src="IMAGES/vera.jpg" alt='dinma'>
+                            <h2>Vera Cyprain</h2>
+                            <p>Vice President</p>
+                        </div>
+                        <div class='down'>
+                            <a href='view detail.html'><button class='view'><strong>View Details</strong></button></a>
+                            <a href='vote.html'><button class='voat'><strong>Vote</strong></button></a>
+                        </div>
+                    </div>
+
+                    <div class='candidate-profile'>
+                        <div class='top'>
+                            <img src="IMAGES/jasmine.jpg" alt='jasmine'>
+                            <h2>Nwosisi Kemjika</h2>
+                            <p>Director of Socials</p>
+                        </div>
+                        <div class='down'>
+                            <a href='view detail.html'><button class='view'><strong>View Details</strong></button></a>
+                            <a href='vote.html'><button class='voat'><strong>Vote</strong></button></a>
+                        </div>
+                    </div>
+
+                    <div class='candidate-profile'>
+                        <div class='top'>
+                            <img src="IMAGES/ella.jpg" alt='ella'>
+                            <h2>Ndunma Daniella</h2>
+                            <p>Director of Socials</p>
+                        </div>
+                        <div class='down'>
+                            <a href='view detail.html'><button class='view'><strong>View Details</strong></button></a>
+                            <a href='vote.html'><button class='voat'><strong>Vote</strong></button></a>
+                        </div>
+                    </div>
+
+                    <div class='candidate-profile'>
+                        <div class='top'>
+                            <img src="IMAGES/favour.jpg" alt='favour'>
+                            <h2>Echezolam Favour</h2>
+                            <p>Director of Welfare</p>
+                        </div>
+                        <div class='down'>
+                            <a href='view detail.html'><button class='view'><strong>View Details</strong></button></a>
+                            <a href='vote.html'><button class='voat'><strong>Vote</strong></button></a>
+                        </div>
+                    </div>
+
+                    <div class='candidate-profile'>
+                        <div class='top'>
+                            <img src="IMAGES/kelemonie.jpg" alt='ella'>
+                            <h2>Kelemonie</h2>
+                            <p>Director of Welfare</p>
+                        </div>
+                        <div class='down'>
+                            <a href='view detail.html'><button class='view'><strong>View Details</strong></button></a>
+                            <a href='vote.html'><button class='voat'><strong>Vote</strong></button></a>
+                        </div>
+                    </div>
+
+                    <div class='candidate-profile'>
+                        <div class='top'>
+                            <img src="IMAGES/mavis.jpg" alt='mavis'>
+                            <h2>Mavis Clara</h2>
+                            <p>Secretary General</p>
+                        </div>
+                        <div class='down'>
+                            <a href='view detail.html'><button class='view'><strong>View Details</strong></button></a>
+                            <a href='vote.html'><button class='voat'><strong>Vote</strong></button></a>
+                        </div>
+                    </div>
+
+                    <div class='candidate-profile'>
+                        <div class='top'>
+                            <img src="IMAGES/rachel.jpg" alt='rachel'>
+                            <h2>Ekwomadu Rachel</h2>
+                            <p>Secretary General</p>
+                        </div>
+                        <div class='down'>
+                            <a href='view detail.html'><button class='view'><strong>View Details</strong></button></a>
+                            <a href='vote.html'><button class='voat'><strong>Vote</strong></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="vote-guideline" class="content">
+                <h1>Voters Guideline</h1>
+                <p>You're only eligible to register as a voter if:</p>
+                <ul>
+                    <li>You are a student in this school and in IfT department.</li>
+                </ul>
+                <p><strong>When you can be denied registration</strong></p>
+                <ul>
+                    <li>You are not a student of this department</li>
+                </ul>
+                <ul>
+                    <li>If the department declares you to have violated the requirements, this may include general misconduct</li>
+                </ul>
+                <p><strong>Conduct During Election</strong></p>
+                <p>All Voters are expected to familiarize with the candidate of their choice and read their campaign promise</p>
+                <p>All Voters are expected to vote forjust one candidate</p>
+                <p>All Voters are expected to conduct themselves properly offline and Online during the election</p>
+                <p>Note no winner is declared until after the voting session and would be announced by the NAITS electoral board</p>
+                <p>Report any problem and ask quetions if needed</p>
+            </div>
+        </main>
+    </body>
+</html>
+

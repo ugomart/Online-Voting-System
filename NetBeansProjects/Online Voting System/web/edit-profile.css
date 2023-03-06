@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #f9fafa;
+    overflow-x: hidden;
+}
+p{
+    font-family: "roboto", sans-serif;
+}
+
+#group8{
+    transform: scale(0.25);
+    margin-left: -70px;    
+}
+
+main{
+    width: 82%;
+    margin-left: 18%;
+}
+.side-bar{
+    background-color: #fcfdfd;
+    align-items: center;
+    height: 100%;
+    width: 18%;
+    box-shadow: 5px 0 10px #e7f3fa;
+    position: fixed;
+}
+
+.top-bar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#search{
+    border-bottom: 1px solid;
+    width: 70%;
+}
+
+#search form{
+    display: flex;
+    align-items: center;
+}
+input{
+    background-color: #f9fafa;
+    border: solid 2px;
+    border-color: #ececec;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    width: 75%;
+}
+#profilename img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+#options a{
+    text-decoration: none;
+    color: black;
+}
+
+#options{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+    margin-right: -90px;
+}
+#profilename{
+    display: flex;
+    margin-right: 30px;
+}
+i{
+    font-size: 20px;
+}
+
+#navigation button{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20%;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    background-color: #eae5f1;
+}
+
+#navigation .fa-solid{
+    color: green;
+    position: relative;
+    top: 4px;
+    margin-right: 25px;
+    color: #460d86;
+}
+
+
+#navigation #blind{
+    display: none
+}
+
+#navigation strong{
+    color: #460d86;
+    font-size: 15px;
+}
+#navigation a{
+    text-decoration: none;
+}
+
+#navigation{
+    margin-top: 30%;
+    height: 7vh;
+}
+
+#logout{
+    height: 7vh;
+    margin-left: 30%;
+    margin-top: 95%;
+    
+}
+
+
+#logout button{
+    margin-top: 105%;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 50%;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    background-color: #460d86;
+}
+
+#logout strong{
+    color: white;
+}
+
+.heading{
+    margin: 40px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-family: 'montserrat', sans-serif;
+}
+
+#image img{
+    width: 10vh;
+    height: 10vh;
+    margin: 40px;
+    margin-top: 60px;
+    border-radius: 50%
+}
+
+
+.mid-body{
+    display: flex;
+    align-items: center;
+}
+
+
+#clicks{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%
+}
+
+#clicks .upload{
+    border: none;
+    background-color: #93278f;
+    border-radius: 10px;
+    padding: 12px;
+    width: 130%;
+}
+
+#clicks .remove{
+    border: 1px solid;
+    background-color: #f9fafa;
+    border-radius: 10px;
+    border-color: #93278f;
+    padding: 12px;
+    width: 120%;
+    margin-left: 50%;
+}
+
+#clicks .upload strong{
+    color: white;
+}
+
+.main-body{
+    margin-top: -60px;
+    display: block;
+}
+
+
+label{
+    margin: 80px 0 -20px 40px;   
+    display: block;
+}
+
+#space1 input{
+    width: 40vw;
+    display: block;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #93278f;
+}
+#save-changes button{
+    margin: 40px;
+    border: none;
+    background-color: #93278f;
+    border-radius: 10px;
+    padding: 22px;
+    width: 9vw;
+}
+
+#save-changes button strong{
+    color: white;
+}

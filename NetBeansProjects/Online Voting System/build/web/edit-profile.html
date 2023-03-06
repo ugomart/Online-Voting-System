@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>User Edit-Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="edit-profile.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/618f72fac1.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="favicon(1).ico">
+    </head>
+    <body>
+        <div class='side-bar'>
+            <img id="group8" src="IMAGES/group 8.png" alt="group 8"/>
+            <div id='navigation'>
+                <a href="signup.html"><button><i class="fa-solid fa-check-to-slot fa-2x"></i><strong>Vote</strong></button></a>
+                <button id="blind"><i class="fa-solid fa-inbox fa-2x"></i><strong>Voters Guideline</strong></button>
+            </div>
+            
+            <div id='logout'>
+                <a href='logout.html'><button><strong>Logout</strong></button></a>
+            </div>
+        </div>
+        
+        
+        <main>
+            <div class='top-bar'>
+                <div id="search">
+                    <form>
+                        <input type='text' placeholder='Search'/>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                </div>
+                <div id="options">
+                    <i class="fa-sharp fa-solid fa-bell"></i>
+                    <a href="edit-profile.html"><div id='profilename'>
+                        <img src="IMAGES/profile picture.jpg" alt='profile img'>
+                        <p>Darlington Ugo</p>
+                    </div></a>
+                </div>   
+            </div>
+            
+            <div class="heading">
+                <h1>Account</h1>
+                <p>Make changes to your account</p>
+            </div>
+            
+            <div class="mid-body">
+                <div id="image">
+                    <img src="IMAGES/profile picture.jpg" alt="darlington"/>
+                </div>
+                <div id="clicks">
+                    <a href='view detail.html'><button class='upload'><strong>Upload</strong></button></a>
+                    <a href='vote.html'><button class='remove'><strong>Remove</strong></button></a>
+                </div>
+            </div>
+            
+            
+            <div class="main-body">
+                <div id="space1">
+                    <form>
+                        <label id="DN">Display Name</label>
+                        <input type="text" placeholder="Your Text Here">
+                        <label id="RP">Reset Password</label>
+                        <input type="password" placeholder="Current password">
+                        <input type="password" placeholder="Confirm password">
+                    </form>
+                </div>
+            </div>
+            <a href="signup.html" id="save-changes"><button><strong>Save Changes</strong></button></a>
+    </body>
+</html>
